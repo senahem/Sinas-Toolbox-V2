@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="StresserKit.exe" version="1.32.3.2" publicKeyToken="a922e4ac835f2aa7" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="1404642268_64617.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="StresserKit" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="StresserKit.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StresserKit.exe" size="59392">
+      <assemblyIdentity name="StresserKit" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>IFmlltEePvYcq6N7sSGyQojfCRk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1404642268_64617.ico" size="5430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fmFAi0iqwDPxqj3zwrItkpMlSd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SINA\Sina" issuerKeyHash="e95bd38b4a715b837db41aacbfd27892d2d335ba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5seo0TIEmN9aFE0vVO1nRl5RNbM=</DigestValue></Reference></SignedInfo><SignatureValue>Lky9BwHlklvcm0gZRLofCs3eSmQbYCLcmvdGE9DXh/pJiQELZZt6wYyoAPulmL0wjrLKDfG2WWI0PhP4NSRtkW31VqY1IuMnXkAEO9+IAhTu9kPBHVU3OlgpTghdD0XO/CRGhNDZyh2Rh4l8lb3t6i9mJaN+ZF+qM/RLl3gCH44=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sV2a8GTFrd1n+78I9zrzlqFok+EZBJRvAyViObQvW5GE1jCprGzWudQmRgbIK1HW797Qji1II2NV82ZfXx5kqWr/pFkg0uaPP4uoFjNkOIIodbSLo2s7sCfM8VkcNXMuLuPTZ4WT49PN7igTvXWtk4Gjpt9f2lFVR4uwDcxg7wc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b335515e4667ed542f4d145adf980432d1a8c7e6" Description="" Url=""><as:assemblyIdentity name="StresserKit.exe" version="1.32.3.2" publicKeyToken="a922e4ac835f2aa7" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SINA\Sina</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>VqUagOoneEflnNN8o3Rurjdzy/s=</DigestValue></Reference></SignedInfo><SignatureValue>pChi7tr9IcLqo5poJ6XsrQcU3MMmNeXsfmPlNZ9WlLpVGspKZThq01VoVqlQXLFVWszSCJEz8H8P9/0bwIsT9W+9VTn0H1kxTprGDHaXoADdS6UDV3uz6rohj+saD6MmAatKJy9eCtSUAK+KNHcNbLmxa8/eef5UgUzZaUmIOLM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sV2a8GTFrd1n+78I9zrzlqFok+EZBJRvAyViObQvW5GE1jCprGzWudQmRgbIK1HW797Qji1II2NV82ZfXx5kqWr/pFkg0uaPP4uoFjNkOIIodbSLo2s7sCfM8VkcNXMuLuPTZ4WT49PN7igTvXWtk4Gjpt9f2lFVR4uwDcxg7wc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQeoSNiQjfxJZKjSf3h1xcMTANBgkqhkiG9w0BAQUFADAdMRswGQYDVQQDHhIAUwBJAE4AQQBcAFMAaQBuAGEwHhcNMTQwNzA2MTgwOTEwWhcNMTUwNzA3MDAwOTEwWjAdMRswGQYDVQQDHhIAUwBJAE4AQQBcAFMAaQBuAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALFdmvBkxa3dZ/u/CPc685ahaJPhGQSUbwMlYjm0L1uRhNYwqaxs1rnUJkYGyCtR1u/e0I4tSCNjVfNmX18eZKlq/6RZINLmjz+LqBYzZDiCKHW0i6NrO7AnzPFZHDVzLi7j02eFk+PTze4oE711rZOBo6bfX9pRVUeLsA3MYO8HAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEApfCWnbHDJYSr8iDXdPFu+3NFdjtKk8LFvT1pYngVnFUxBPMzcH2WTS6Ow5KMUO9j479TiNWe32UveNSZQ5qBCWe5+czVd4+JDyIDFFBbVY5ShOdbpbym0Mf8noj+hi+dPvB7kZLIY0RjA9vwG1obJE6pAzyfkY6/Dg8INKaBpvE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
